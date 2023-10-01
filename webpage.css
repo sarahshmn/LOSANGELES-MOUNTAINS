@@ -7,6 +7,30 @@ html {
   font-weight: normal;
   src: local('Myriad pro'), url('fonts/MYRIADPRO-REGULAR.OTF') format('truetype');
 }
+@font-face {
+  font-family: 'Myriad pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Myriad pro'), url('fonts/MYRIADPRO-BOLD.OTF') format('truetype');
+}
+@font-face {
+  font-family: 'Myriad pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Myriad pro'), url('fonts/MYRIADPRO-BOLDCOND.OTF') format('truetype');
+}
+@font-face {
+  font-family: 'Myriad pro';
+  font-style: normal;
+  font-weight: light;
+  src: local('Myriad pro'), url('fonts/MyriadPro-Light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Myriad pro';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Myriad pro'), url('fonts/MYRIADPRO-SEMIBOLD.OTF') format('truetype');
+}
 body {
   font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
