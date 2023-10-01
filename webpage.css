@@ -28,7 +28,7 @@ div.header {
 img.icon {
   /*display: inline;*/
   margin-left: 30rem;
-  margin-top: 8px;
+  margin-top: 0.8rem;
   z-index: 2;
 }
 ul.menu1, li.menu1 {
@@ -43,9 +43,9 @@ ul.menu1 {
   margin-left: 69.5rem;
 }
 li.menu1  {
-  padding-right: 52px;
+  padding-right: 5.2rem;
   font-size: 12pt;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   text-decoration: underline;
   font-weight: 800;
 }
@@ -87,10 +87,10 @@ div.line-one {
 p.top-one {
   display: block;
   margin-top: 2.4rem;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #414f6b;
-  margin-left: 10px;
+  margin-left: 1rem;
   z-index: 2;
 }
 p.top-one::first-line {
@@ -101,7 +101,7 @@ p.top-one::first-line {
 ol.menu2, li.menu2 {
   display: inline;
   color: #414f6b;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -111,8 +111,8 @@ ol.menu2 {
 }
 
 li.menu2 {
-  margin-right: 48px;
-  letter-spacing: 1px;
+  margin-right: 4.8rem;
+  letter-spacing: 0.1rem;
 
 }
 
@@ -126,7 +126,7 @@ div.second-container {
 
 h1.number {
   color: #6d7d98;
-  font-size: 135px;
+  font-size: 13.5rem;
   font-weight: bold;
   margin-left: 33rem;
   margin-top: 6rem;
@@ -136,7 +136,7 @@ h1.number {
 
 h2.number {
  color: #414f6b;
- font-size: 32px;
+ font-size: 3.2rem;
  display: inline;
  position: absolute;
  margin: 12rem 0 0 47rem;
@@ -144,7 +144,7 @@ h2.number {
 }
 
 p.info {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: black;
   font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
   margin: 21rem 0 0 40rem;
@@ -170,7 +170,7 @@ div.fourth-container {
   height: 18rem;
 }
 p.info2 {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: black;
   font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
   margin: 6rem 0 0 10rem;
@@ -180,14 +180,14 @@ p.info2 {
 }
 h1.number2{
   color: #6d7d98;
-  font-size: 135px;
+  font-size: 13.5rem;
   font-weight: bold;
   margin-left: 33rem;
   display: inline;
 }
 h2.number2{
   color: #414f6b;
-  font-size: 32px;
+  font-size: 3.2rem;
   display: inline-block;
   position: absolute;
   margin-top: 6rem;
@@ -204,12 +204,12 @@ div.list {
 ul.third, li.third {
   color: #b0b4be;
   display: inline;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
 
 }
 li.third {
-  padding: 9px 21px;
+  padding: 0.9rem 2.1rem;
 }
 
 li.third:hover {
@@ -239,20 +239,20 @@ div.table {
 h2.plan {
   margin-top: 0;
   color: #404e6c;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: bolder;
   margin: 2.2rem 0 1rem 4.5rem;
 }
 
 table, tr, td {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: black;
 
 }
 
 td {
   width: 20rem;
-  height: 20px;
+  height: 2rem;
 }
 table {
   padding: 0 0 2rem 4rem;
@@ -273,7 +273,7 @@ img.icon2 {
 p.footer {
   color: #63769d;
   margin-top: 2.4rem;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
   opacity: 50%;
   margin-left: 1rem;
@@ -282,7 +282,7 @@ p.footer {
 p.copyright {
   opacity: 50%;
   color: #63769d;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-left: 49rem;
 
 }
@@ -296,7 +296,7 @@ img.cover {
 }
 
 img.cover2 {
-  margin-top: 260px;
+  margin-top: 26rem;
   position: absolute;
   z-index: 0;
 }
