@@ -64,37 +64,35 @@ ul.menu1, li.menu1 {
 }
 
 ul.menu1 {
-  margin-left: 69.5rem;
+  margin-left: 60rem;
 }
 li.menu1  {
-  padding-right: 5.2rem;
-  font-size: 12pt;
+  padding-right: 4rem;
+  font-size: 10pt;
   letter-spacing: 0.2rem;
   text-decoration: underline;
   font-weight: 800;
 }
 h1.top {
-  margin-top: 24.5rem;
-  margin-left: 48.5rem;
+  margin-top: 10rem;
+  margin-left: 38rem;
   font-size: 90pt;
   font-weight: bold;
-  color: #4d4d4d;
+  color: #404e6c;
   margin-bottom: 0;
   padding-bottom: 0;
   display: inline-block;
-  line-height: 0;
+  line-height: 0.8;
   letter-spacing: 0;
   z-index: 5;
 
 }
 
-h1.botton {
-  margin-left: 49rem;
+h1.top::first-line {
   font-size: 94pt;
   font-weight: bold;
-  color: #404e6c;
-  margin-top: 0;
-  padding-top: 0;
+  color: #4d4d4d;
+  margin-left: 34rem;
   display: inline;
   z-index: 5;
 }
@@ -107,7 +105,9 @@ div.line-one {
   z-index: 2;
   position: relative;
 }
-
+.icon3 {
+  margin-left: 30rem;
+}
 p.top-one {
   display: block;
   margin-top: 2.4rem;
@@ -125,12 +125,12 @@ p.top-one::first-line {
 ol.menu2, li.menu2 {
   display: inline;
   color: #414f6b;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 ol.menu2 {
-  margin-left: 55rem;
+  margin-left: 50rem;
   margin-right: 0;
 }
 
@@ -317,16 +317,29 @@ img.cover {
   top: 0px;
   opacity: 20%;
   z-index: 0;
+  width: 100vw;
+  height: 98rem;
 }
 
 img.cover2 {
-  margin-top: 26rem;
+  margin-top: 20rem;
   position: absolute;
   z-index: 0;
+  width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+      font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+  }
   div.container {
+    overflow-x: hidden;
     background-image: url('images/one.png');
     width: 100vw;
     height: 30rem;
@@ -338,7 +351,7 @@ img.cover2 {
     align-items: center;
   }
   img.icon {
-    width: 3.5rem;
+    width: 2.5rem;
     display: inline-block;
     margin-left: 10rem;
     margin-top: 0.8rem;
@@ -353,38 +366,35 @@ img.cover2 {
   }
   
   ul.menu1 {
-    margin-left: 20rem;
+    margin-left: 12rem;
   }
   li.menu1  {
-    padding-right: 5.2rem;
-    font-size: 8pt;
-    letter-spacing: 0.2rem;
+    padding-right: 2rem;
+    font-size: 6pt;
+    letter-spacing: 0.1rem;
     text-decoration: underline;
     font-weight: 800;
   }
   h1.top {
-    margin-top: 7.5rem;
-    margin-left: 21.5rem;
+    display: inline-block;
+    font-size: 32pt;
+    font-weight: bold;
+    color: #404e6c;
+    margin-top: 3.5rem;
+    margin-left: 15rem;
+    z-index: 5;
+    line-height: 3.3rem;
+  }
+  
+  h1.top::first-line {
+    margin-top: 6rem;
+    margin-left: 14rem;
     font-size: 30pt;
     font-weight: bold;
     color: #4d4d4d;
-    margin-bottom: 0;
-    padding-bottom: 0;
     display: inline-block;
-    line-height: 0;
+    line-height: 3.3rem;
     letter-spacing: 0;
-    z-index: 5;
-  
-  }
-  
-  h1.botton {
-    margin-left: 21rem;
-    font-size: 34pt;
-    font-weight: bold;
-    color: #404e6c;
-    margin-top: 0;
-    padding-top: 0;
-    display: inline;
     z-index: 5;
   }
   
@@ -411,43 +421,42 @@ img.cover2 {
     z-index: 2;
   }
   .icon3 {
-    width: 3.5rem;
+    width: 2.5rem;
     margin-top: 0;
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
   ol.menu2, li.menu2 {
     display: inline;
     color: #414f6b;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   
   ol.menu2 {
-    margin-left: 18rem;
+    margin-left: 10rem;
     margin-right: 0;
   }
   
   li.menu2 {
-    margin-right: 4.8rem;
+    margin-right: 2rem;
     letter-spacing: 0.1rem;
   }
   
   div.second-container {
     background-image: url('images/peak.png');
-    height: 40rem;
+    height: 35rem;
     width: 100vw;
     z-index: 5;
     position: relative;
     background-size: cover;
-
   }
   
   h1.number {
     color: #6d7d98;
     font-size: 6.5rem;
     font-weight: bold;
-    margin-left: 8rem;
-    margin-top: 5rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
     display: inline;
     position: absolute;
   }
@@ -457,23 +466,23 @@ img.cover2 {
    font-size: 2rem;
    display: inline;
    position: absolute;
-   margin: 6.5rem 0 0 13.5rem;
+   margin: 4.5rem 0 0 8rem;
    font-weight: bold;
   }
   
   p.info {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
     font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
-    margin: 12rem 0 0 10rem;
+    margin: 9rem 0 0 7rem;
     display: inline-block;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
   
   div.third-container {
     margin: 12.3rem 0 0 0;
     background-color: #414f6be0;
-    padding: 1.5rem 0 1.5rem 8rem;
+    padding: 1.5rem 0 1.5rem 4.3rem;
     align-items: center;
     display: flex;
     z-index: 5;
@@ -481,7 +490,7 @@ img.cover2 {
   
   img.crosel {
     margin-right: 1rem;
-    width: 11rem;
+    width: 9rem;
   }
   
   div.fourth-container {
@@ -492,19 +501,19 @@ img.cover2 {
     position: relative;
   }
   p.info2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
     font-family: 'Myriad pro', Arial, Helvetica, sans-serif;
-    margin: 2rem 0 0 8rem;
+    margin: 3rem 0 0 6.5rem;
     display: inline-flex;
-    line-height: 2rem;
+    line-height: 1.5rem;
     position: absolute;
   }
   h1.number2{
     color: #6d7d98;
     font-size: 6rem;
     font-weight: bold;
-    margin-left: 8rem;
+    margin-left: 2rem;
     display: inline;
   }
   h2.number2{
@@ -513,7 +522,7 @@ img.cover2 {
     display: inline-block;
     position: absolute;
     margin-top: 1rem;
-    margin-left: 0;
+    margin-left: -1rem;
     font-weight: bold;
   }
   div.list {
@@ -533,7 +542,7 @@ img.cover2 {
   
   }
   li.third {
-    padding: 0.7rem 2.1rem;
+    padding: 0.7rem 1.6rem;
   }
   
   li.third:hover {
@@ -593,7 +602,7 @@ img.cover2 {
   
   img.icon2 {
     opacity: 10%;
-    margin: 0 0 0 10rem;
+    margin: 0 0 0 6rem;
     width: 2rem;
   }
   
@@ -610,7 +619,7 @@ img.cover2 {
     opacity: 50%;
     color: #63769d;
     font-size: 1rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
   
   }
   
@@ -620,11 +629,12 @@ img.cover2 {
     top: 0px;
     opacity: 20%;
     z-index: 0;
-    width: 90rem;
+    width: 100vw;
+    height: 100vh;
   }
   
   img.cover2 {
-    margin-top: 10.1rem;
+    margin-top: 7rem;
     position: absolute;
     z-index: 0;
     width: 100vw;
